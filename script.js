@@ -71,6 +71,6 @@ function virarCarta(carta) {
     if (document.querySelectorAll(".card:not(.virada)").length === 0) {
       alert(`Você ganhou em ${cliques} jogadas!`);
       lista.innerHTML = "";
-    
+      
     }
   }, 1000);
