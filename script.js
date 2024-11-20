@@ -1,11 +1,8 @@
-
 let qntCartas = parseInt(prompt("Com quantas cartas você quer jogar?"));
-
 
 while(isNaN(qntCartas) || qntCartas < 4 || qntCartas > 14 || qntCartas % 2 !== 0){
     qntCartas = parseInt(prompt("Você não escolheu um número válido. Com quantas cartas você quer jogar?"));
 };
-
 
 const imagens = ["bobrossparrot.gif", 
         "explodyparrot.gif",
