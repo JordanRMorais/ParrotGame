@@ -62,14 +62,14 @@ function virarCarta(carta) {
             cartaUm.classList.remove("virada");
             cartaDois.classList.remove("virada");
           cartaUm = null;
-          cartaDois = null;}, 1500);
+          cartaDois = null;}, 1000);
       }
     }
   }
   
   setInterval(() => {
     if (document.querySelectorAll(".card:not(.virada)").length === 0) {
-      alert(`Você ganhou em ${cliques} cliques!`);
+      alert(`Você ganhou em ${cliques} jogadas!`);
       lista.innerHTML = "";
     
     }
